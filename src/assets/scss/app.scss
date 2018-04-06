@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+
+
+@include foundation-global-styles;
+// @include foundation-grid;
+// @include foundation-flex-grid;
+//
+@include foundation-xy-grid-classes;
+
+// @include foundation-float-classes;
+@include foundation-flex-classes;
+
+@import 'mystyle';

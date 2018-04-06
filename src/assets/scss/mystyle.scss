@@ -1,0 +1,27 @@
+section.my {
+    padding: 0;
+    position: relative;
+    border: 1px solid red;
+    @media screen and (max-width: 1023px) {
+        margin: 0 2rem;
+    }
+    padding: 5rem 8.6rem;
+}
+
+.cell.my {
+    min-height: 30vh;
+    border: 1px solid green;
+}
+
+body {
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 63.5%;
+}
+
+.main {
+    padding-top: 5rem;
+}
